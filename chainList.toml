@@ -119,6 +119,32 @@
     chain = "mainnet"
 
 [[chains]]
+  name = "Kroma Mainnet"
+  identifier = "mainnet/kroma"
+  chain_id = 255
+  rpc = ["https://api.kroma.network"]
+  explorers = ["https://blockscout.kroma.network"]
+  superchain_level = 0
+  governed_by_optimism = false
+  data_availability_type = "eth-da"
+  [chains.parent]
+    type = "L2"
+    chain = "mainnet"
+
+[[chains]]
+  name = "Kroma Sepolia"
+  identifier = "mainnet/kroma"
+  chain_id = 2358
+  rpc = ["https://api.sepolia.kroma.network"]
+  explorers = ["https://blockscout.sepolia.kroma.network"]
+  superchain_level = 0
+  governed_by_optimism = false
+  data_availability_type = "eth-da"
+  [chains.parent]
+    type = "L2"
+    chain = "sepolia"
+
+[[chains]]
   name = "Lisk"
   identifier = "mainnet/lisk"
   chain_id = 1135

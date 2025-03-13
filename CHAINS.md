@@ -13,6 +13,7 @@
 | Funki | ❌ | ❌ | https://funki.superscan.network | `https://rpc-mainnet.funkichain.com` | `https://rpc-mainnet.funkichain.com` |
 | HashKey Chain | ❌ | ❌ | https://explorer.hsk.xyz | `https://mainnet.hsk.xyz` | `https://hashkeychain-mainnet.alt.technology` |
 | Ink | ✅ | ❌ | https://explorer.inkonchain.com | `https://rpc-gel.inkonchain.com` | `https://rpc-gel.inkonchain.com` |
+| Kroma Mainnet | ❌ | ❌ | https://blockscout.kroma.network | `https://api.kroma.network` | `https://sequencer.kroma.network` |
 | Lisk | ❌ | ✅ | https://blockscout.lisk.com | `https://rpc.api.lisk.com` | `https://rpc.api.lisk.com` |
 | Lyra Chain | ❌ | ✅ | https://explorer.lyra.finance | `https://rpc.lyra.finance` | `https://rpc.lyra.finance` |
 | Metal L2 | ✅ | ✅ | https://explorer.metall2.com | `https://rpc.metall2.com` | `https://rpc.metall2.com` |
@@ -45,6 +46,7 @@
 | Ethernity Testnet | ❌ | ✅ | https://testnet.ernscan.io | `https://testnet.ethernitychain.io` | `https://testnet.ethernitychain.io` |
 | Funki Sepolia Testnet | ❌ | ❌ | https://sepolia-sandbox.funkichain.com/ | `https://funki-testnet.alt.technology` | `https://funki-testnet.alt.technology` |
 | Ink Sepolia | ✅ | ✅ | https://explorer-sepolia.inkonchain.com | `https://rpc-gel-sepolia.inkonchain.com` | `https://rpc-gel-sepolia.inkonchain.com` |
+| Kroma Sepolia | ❌ | ❌ | https://blockscout.sepolia.kroma.network | `https://api.sepolia.kroma.network` | `https://sequencer.sepolia.kroma.network` |
 | Lisk Sepolia Testnet | ❌ | ❌ | https://sepolia-blockscout.lisk.com | `https://rpc.sepolia-api.lisk.com` | `https://rpc.sepolia-api.lisk.com` |
 | Metal L2 Testnet | ✅ | ✅ | https://testnet.explorer.metall2.com | `https://testnet.rpc.metall2.com` | `https://testnet.rpc.metall2.com` |
 | Mode Testnet | ✅ | ✅ | https://sepolia.explorer.mode.network | `https://sepolia.mode.network` | `https://sepolia.mode.network` |

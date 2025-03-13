@@ -1,0 +1,54 @@
+name = "Kroma Mainnet"
+public_rpc = "https://api.kroma.network"
+sequencer_rpc = "https://sequencer.kroma.network"
+explorer = "https://blockscout.kroma.network"
+superchain_level = 0
+governed_by_optimism = false
+superchain_time = 0
+data_availability_type = "eth-da"
+chain_id = 255
+batch_inbox_addr = "0xfF00000000000000000000000000000000000255"
+block_time = 2
+seq_window_size = 3600
+max_sequencer_drift = 600
+
+[hardforks]
+  canyon_time = 1708502400
+  delta_time = 1709107200
+  ecotone_time = 1714032001
+
+[optimism]
+  eip1559_elasticity = 6
+  eip1559_denominator = 50
+  eip1559_denominator_canyon = 250
+
+[genesis]
+  l2_time = 1693880387
+  [genesis.l1]
+    hash = "0xe459c500b760ed52a1ad799bf578b257af2c76f6ebe061a4c62627e9c605bced"
+    number = 18067255
+  [genesis.l2]
+    hash = "0xeab1dbcbd854942126643609f6b457e391b169c819b7e5d5042389ccf6012cbf"
+    number = 0
+  [genesis.system_config]
+    batcherAddress = "0x41b8cd6791de4d8f9e0eaf7861ac506822adce12"
+    overhead = "0x00000000000000000000000000000000000000000000000000000000000000bc"
+    scalar = "0x00000000000000000000000000000000000000000000000000000000000a6fe0"
+    gasLimit = 30000000
+
+[roles]
+  SystemConfigOwner = "0x22605A12cB77Fe420B0cC1263cEb58a77352FDc1"
+  ProxyAdminOwner = "0x22605A12cB77Fe420B0cC1263cEb58a77352FDc1"
+  Guardian = "0x22605A12cB77Fe420B0cC1263cEb58a77352FDc1"
+  Proposer = "0x3aa00bb915A8e78b0523E4c365e3E70A19d329e6"
+  UnsafeBlockSigner = "0x994C074BD9503e4f01CB834e2c409FA16b41E587"
+  BatchSubmitter = "0x41b8cd6791de4d8f9e0eaf7861ac506822adce12"
+
+[addresses]
+  L1CrossDomainMessengerProxy = "0x46B8bB4C5dd27bB42807Db477af4d1a7C8A5B746"
+  L1ERC721BridgeProxy = "0x46d07221dfC313afe1BF104F4bB1f185301D65B9"
+  L1StandardBridgeProxy = "0x827962404D7104202C5aaa6b929115C8211d9596"
+  OptimismMintableERC20FactoryProxy = "0x6122eDDf43eF8636F06af12B4043892E7aE863bA"
+  OptimismPortalProxy = "0x31F648572b67e60Ec6eb8E197E1848CC5F5558de"
+  SystemConfigProxy = "0x3971EB866AA9b2b8aFEa8a7C816F3b7e8b195a35"
+  ProxyAdmin = "0x665c23A5722B6A237fa6Be2B49c0A94504db1edd"

@@ -165,6 +165,42 @@
     }
   },
   {
+    "name": "Kroma Mainnet",
+    "identifier": "mainnet/kroma",
+    "chainId": 255,
+    "rpc": [
+      "https://api.kroma.network"
+    ],
+    "explorers": [
+      "https://blockscout.kroma.network"
+    ],
+    "superchainLevel": 0,
+    "governedByOptimism": false,
+    "dataAvailabilityType": "eth-da",
+    "parent": {
+      "type": "L2",
+      "chain": "mainnet"
+    }
+  },
+  {
+    "name": "Kroma Sepolia",
+    "identifier": "sepolia/kroma",
+    "chainId": 2358,
+    "rpc": [
+      "https://api.sepolia.kroma.network"
+    ],
+    "explorers": [
+      "https://blockscout.sepolia.kroma.network"
+    ],
+    "superchainLevel": 0,
+    "governedByOptimism": false,
+    "dataAvailabilityType": "eth-da",
+    "parent": {
+      "type": "L2",
+      "chain": "sepolia"
+    }
+  },
+  {
     "name": "Lisk",
     "identifier": "mainnet/lisk",
     "chainId": 1135,

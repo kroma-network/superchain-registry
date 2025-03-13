@@ -1,0 +1,54 @@
+name = "Kroma Sepolia Testnet"
+public_rpc = "https://api.sepolia.kroma.network"
+sequencer_rpc = "https://sequencer.sepolia.kroma.network"
+explorer = "https://blockscout.sepolia.kroma.network"
+superchain_level = 0
+governed_by_optimism = false
+superchain_time = 0
+data_availability_type = "eth-da"
+chain_id = 2358
+batch_inbox_addr = "0xfa79000000000000000000000000000000000001"
+block_time = 2
+seq_window_size = 3600
+max_sequencer_drift = 1200
+
+[hardforks]
+  canyon_time = 1707897600
+  delta_time = 1708416000
+  ecotone_time = 1713340800
+
+[optimism]
+  eip1559_elasticity = 10
+  eip1559_denominator = 50
+  eip1559_denominator_canyon = 250
+
+[genesis]
+  l2_time = 1688709132
+  [genesis.l1]
+    hash = "0x936e490e33e6e136ecd9095090e30ed7def3903ef2bae3e05966b376e493ad76"
+    number = 3841490
+  [genesis.l2]
+    hash = "0x52ef8f66bb31c16326eb2072dd9b2fa734068728b845d5428f3a256a50bf252e"
+    number = 0
+  [genesis.system_config]
+    batcherAddress = "0xf15dc770221b99c98d4aaed568f2ab04b9d16e42"
+    overhead = "0x0000000000000000000000000000000000000000000000000000000000000834"
+    scalar = "0x000000000000000000000000000000000000000000000000000000000016e360"
+    gasLimit = 30000000
+
+[roles]
+  SystemConfigOwner = "0x92c14A443D6C369F62e2bcB7870adffeDb0C4D1d"
+  ProxyAdminOwner = "0x92c14A443D6C369F62e2bcB7870adffeDb0C4D1d"
+  Guardian = "0x92c14A443D6C369F62e2bcB7870adffeDb0C4D1d"
+  Proposer = "0xc2da150ecfaa2e275577203bb177dd4de4a2536e"
+  UnsafeBlockSigner = "0x9847c8baa7369b4b1ea0ade43163ab1c58b09e43"
+  BatchSubmitter = "0xf15dc770221b99c98d4aaed568f2ab04b9d16e42"
+
+[addresses]
+  L1CrossDomainMessengerProxy = "0x69786A10c1A153191BF5A50B61e70F6934fcc0A2"
+  L1ERC721BridgeProxy = "0xb1eEf5eC7932D1adC605C6537e4D9353f7Ba2DcB"
+  L1StandardBridgeProxy = "0x38C9a0a694AA0f92c05238484C3a9bdE1e85ddE4"
+  OptimismMintableERC20FactoryProxy = "0x707eE4d3d9F53ca403D461ab27e04493F831f048"
+  OptimismPortalProxy = "0x31ab8eD993A3BE9Aa2757C7D368Dc87101A868a4"
+  SystemConfigProxy = "0x398C8eA789968893095D86CBA168378A4f452e33"
+  ProxyAdmin = "0x9328434DF024fE7D6b105e6Da20ee34e90aC9CaA"
